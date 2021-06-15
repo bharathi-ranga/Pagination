@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Noto Sans JP", sans-serif;
+        height: 100vh;
+      }
+      thead td,
+      tbody td {
+        border: 2px solid black;
+      }
+      table {
+        border-collapse: collapse;
+        height: 80%;
+      }
+      td {
+        height: 40px;
+      }
+      .main {
+        height: 100%;
+        padding: 0.5rem;
+      }
+      .footer {
+        position: relative;
+        display: inline-block;
+        bottom: 0;
+        left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tableDiv"></div>
+    <div class="footer">
+      <button value="1" onclick="clickExecute(this)">1</button>
+      <button value="2" onclick="clickExecute(this)">2</button>
+      <button value="3" onclick="clickExecute(this)">3</button>
+      <button value="4" onclick="clickExecute(this)">4</button>
+      <button value="5" onclick="clickExecute(this)">5</button>
+      <button value="6" onclick="clickExecute(this)">6</button>
+      <button value="7" onclick="clickExecute(this)">7</button>
+      <button value="8" onclick="clickExecute(this)">8</button>
+      <button value="9" onclick="clickExecute(this)">9</button>
+      <button value="10" onclick="clickExecute(this)">10</button>
+      <button value="10" onclick="clickNext(this)">Next</button>
+      <button value="10" onclick="clickPrev(this)">Prev</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
